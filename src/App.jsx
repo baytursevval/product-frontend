@@ -17,7 +17,7 @@ function App() {
 
     try {
       //const res = await fetch(`http://localhost:8080/api/products?${params.toString()}`);
-      const res = await fetch(`https://product-backend-bmja.onrender.com/api/products?${params.toString()}`);
+      const res = await fetch(`https://product-backend-2-b868.onrender.com/api/products?${params.toString()}`);
       const data = await res.json();
       setProducts(data);
 
