@@ -130,7 +130,7 @@ function App() {
       </div>
 
       <div className="slider">
-        <button onClick={scrollLeft}>◀</button>
+        <button onClick={scrollLeft}>ᐸ</button>
 
         <div className="products-container" ref={scrollContainerRef}>
           {products.map((p, index) => {
@@ -193,7 +193,7 @@ function App() {
           })}
         </div>
 
-        <button onClick={scrollRight}>▶</button>
+        <button onClick={scrollRight}>ᐳ</button>
       </div>
     </div>
   );
