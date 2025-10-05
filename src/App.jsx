@@ -16,7 +16,8 @@ function App() {
     if (minPopParam) params.append("minPopularity", minPopParam);
 
     try {
-      const res = await fetch(`http://localhost:8080/api/products?${params.toString()}`);
+      //const res = await fetch(`http://localhost:8080/api/products?${params.toString()}`);
+      const res = await fetch(`https://product-backend-bmja.onrender.com/api/products?${params.toString()}`);
       const data = await res.json();
       setProducts(data);
 
